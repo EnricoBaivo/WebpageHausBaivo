@@ -1,0 +1,8 @@
+/node_modules
+/.eslintrc
+/src
+/.jshintrc
+/gulpfile.js
+/package-lock.json
+/package.json 
+/readme.md
