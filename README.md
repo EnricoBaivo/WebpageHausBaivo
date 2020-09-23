@@ -1,6 +1,6 @@
-# WebDev - Web AR VisitenCard
+# WebDev - Landingpage for Baivo.studio
 
-In diesem Projekt wird die piplien für web AR visiten Karten entstehen.
+Hier entsteht Baivo.studio der anhaltspunkt für interresierte, dient als Portfoli.
 
 Aktuelle benutzte Frameworks:
 
