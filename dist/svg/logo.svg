@@ -2,7 +2,7 @@
    <defs>
     <style>
       .black {
-        fill: white
+        fill: black;
       }
     </style>
     </defs>
