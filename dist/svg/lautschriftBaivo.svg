@@ -3,10 +3,12 @@
     <defs>
         <style>
             .svgColor {
-                fill: black;
+                fill: white;
                 fill-rule: evenodd;
             }
         </style>
+
+
     </defs>
     <g id="lautschriftBaivo" data-name="lautschriftBaivo">
         <polygon class="svgColor"
@@ -26,4 +28,6 @@
         <polygon class="svgColor"
             points="606.45 0 605.05 0 576.08 0 576.08 13.3 605.05 13.3 605.05 116.06 576.08 116.06 576.08 129.35 605.05 129.35 606.45 129.35 619.89 129.35 619.89 0 606.45 0" />
     </g>
+
+
 </svg>
