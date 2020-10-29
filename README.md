@@ -14,7 +14,7 @@ NPM wird benötigt
 
 `npm run build` ist der Build-Befehl, hierbei wird alles gebaut und im `dist/` Verzeichnis hinterlegt. Es wird nicht auf Änderungen an Dateien gewartet.
 
-
+`npm install --save-dev "libary"` ist der befehl um packages der develope dependencie hinzu zufügen.
 
 
 Npm update

@@ -1,0 +1,75 @@
+.overlap
+    overflow: hidden
+
+.half
+
+    h1
+        text-align: start
+
+    .halffont
+
+        @include breakpoint-up(large)
+            align-items: center
+            display: flex
+            height: 100%
+            position: absolute
+            width: auto
+
+        li
+            font-size: 5vh
+            font-weight: 900
+            text-align: center
+            text-transform: uppercase
+            transform: translateX(-50%)
+
+    .right
+        color: $background-section-two-light
+
+    .left
+        color: $black
+        margin-left: 50%
+
+    .videocontainer
+        background-color: $background-section-two-light
+        height: 100%
+        position: relative
+        width: 100%
+
+    .textcontainer
+
+        p
+            @include breakpoint-down(medium)
+                font-size: 1vw
+                line-height: 2em
+            @include breakpoint-down(medium)
+                font-size: 1.9vw
+                line-height: 1.8em
+
+            @include breakpoint-down(small)
+                font-size: 1.5vh
+                line-height: 1.8em
+
+        &
+            color: $white
+            font-weight: 500
+            letter-spacing: .05em
+            padding-top: 2%
+            text-align: start
+
+        h3
+            @include breakpoint-up(large)
+                font-size: 1.6vw
+                letter-spacing: .2em
+
+            @include breakpoint-down(medium)
+                font-size: 2.8vw
+                letter-spacing: .4em
+
+            @include breakpoint-down(small)
+                font-size: 1.8vh
+                letter-spacing: .1em
+
+            &
+                color: $background-section-two-light
+                padding-top: 5%
+                text-transform: uppercase

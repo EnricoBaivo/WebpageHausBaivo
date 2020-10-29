@@ -1,8 +1,1 @@
 /node_modules
-/.eslintrc
-/src
-/.jshintrc
-/gulpfile.js
-/package-lock.json
-/package.json 
-/a.code-workspace
