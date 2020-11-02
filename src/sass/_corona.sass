@@ -1,0 +1,130 @@
+.corona-news
+
+    div,h1,h2,p,span
+        color: $white
+
+    a
+        @include breakpoint-down(large)
+            font-size: 1vw
+
+        @include breakpoint-down(medium)
+            font-size: 2vw
+
+        @include breakpoint-down(small)
+            font-size: 3vw
+    &
+        color: $background-section-one-light
+        font-weight: bold
+
+    h1
+        @include breakpoint-down(large)
+            font-size: 5vw
+
+        @include breakpoint-down(medium)
+            font-size: 6vw
+
+        @include breakpoint-down(small)
+            font-size: 7vw
+
+    h2
+        @include breakpoint-down(large)
+            font-size: 2vw
+
+        @include breakpoint-down(medium)
+            font-size: 3vw
+
+        @include breakpoint-down(small)
+            font-size: 5vw
+
+    p
+
+        @include breakpoint-down(large)
+            font-size: 1vw
+
+        @include breakpoint-down(medium)
+            font-size: 3vw
+
+        @include breakpoint-down(small)
+            font-size: 4vw
+        &
+            padding: 1%
+
+    ul
+        padding: 1%
+
+    article
+        padding-top: 3%
+        padding-left: 3%
+
+    .corona-artikel
+        @include breakpoint-down(large)
+            height: fit-content
+            width: 70%
+            margin: 3%
+            padding: 3%
+
+        @include breakpoint-down(medium)
+            height: fit-content
+            width: 80%
+            margin: 2%
+            padding: 2%
+
+        @include breakpoint-down(small)
+            height: fit-content
+            width: 90%
+            margin: 1%
+            padding: 1%
+
+    .forbidden
+        color: $red
+
+    .gehtso
+        color: $yellow
+
+    .allowed
+        color: $green
+
+    .img-container
+        height: fit-content
+        width: auto
+        padding-top: 1%
+        padding-bottom: 1%
+.get-back
+    top: 50%
+    left: 3%
+    transform: translateY(-50%)
+    cursor: pointer
+
+    aside
+        animation: $font-c-animation
+
+        li
+            @include breakpoint-up(medium)
+                font-size: 3em
+
+            @include breakpoint-down(medium)
+                font-size: 6em
+
+            @include breakpoint-down(small)
+                font-size: 1em
+
+            &
+                font-weight: 900
+                text-align: center
+                text-transform: uppercase
+
+            &:nth-child(4)
+                margin: 90%
+
+.corona-clickbox
+    padding: 2%
+    color: $white
+    cursor: pointer
+    transition: 2s
+
+    &:hover
+        padding: 10%
+        font-size: 3vw
+
+    p
+        padding-top: 1%

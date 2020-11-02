@@ -71,6 +71,7 @@ p
 a
     color: $white
     text-decoration: none
+    cursor: pointer
 
     &:hover
         animation: $font-c-animation
@@ -101,6 +102,9 @@ video
 .overflow
     overflow: hidden
 
+.overflow-auto
+    overflow: auto
+
 .abso
     position: absolute
 
@@ -127,6 +131,9 @@ video
     align-items: center
     justify-content: center
 
+.center-vertical
+    align-items: center
+
 .flex-coulumn
     flex-direction: column
 
@@ -142,7 +149,7 @@ video
 
 .radial-color-bg
     background: radial-gradient($fade-c, $fade-bonus)
-    
+
 .textcontainer
     @include breakpoint-up(large)
         padding: 10%
