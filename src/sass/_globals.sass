@@ -1,0 +1,208 @@
+*,
+body
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+    top: 0
+
+body
+    font-family: $thirdfont
+    font-size: 16px
+
+section
+    height: 100vh
+    position: relative
+    width: 100%
+
+.plus
+
+    @include breakpoint-down(small)
+        height: 99vh
+
+    &
+        height: 115vh
+
+footer
+    height: 50vh
+
+h1
+    @include breakpoint-up(large)
+        font-size: 7vw
+
+    @include breakpoint-down(medium)
+        font-size: 9vh
+
+    @include breakpoint-down(small)
+        font-size: 7vh
+
+    &
+        color: $white
+        font-family: $primaryfont
+
+        letter-spacing: .2vw
+        text-align: center
+
+h2
+    font-weight: 500
+
+.ma
+    margin: auto
+
+.mt
+    &-10
+        margin-top: 10%
+
+    &-5
+        margin-top: 10%
+
+.mb
+    &-10
+        margin-bottom: 10%
+
+ul
+    list-style: none
+
+p
+    font-family: $thirdfont
+    // font-family: $secondaryfont
+    font-size: 2rem
+
+a
+    color: $white
+    text-decoration: none
+    cursor: pointer
+
+    &:hover
+        animation: $font-c-animation
+
+video
+    height: 130%
+
+// Helperclasses
+.hide
+    display: none
+
+.f
+    display: flex
+
+.bg-color
+    background-color: $background-section-one-light
+
+.fade
+    animation: bg-colorfade  20s ease-in-out infinite
+
+.f-c-fade
+    animation: $font-c-animation
+
+.full
+    height: 100%
+    width: 100%
+
+.overflow
+    overflow: hidden
+
+.overflow-auto
+    overflow: auto
+
+.abso
+    position: absolute
+
+.fixed
+    position: fixed
+
+.blur
+    backdrop-filter: blur(10px)
+
+.half
+    height: 100%
+    width: 50%
+
+.half-right
+
+    @include breakpoint-up(large)
+        margin-left: 50%
+        position: absolute
+
+.to-upper
+    text-transform: uppercase
+
+.center
+    align-items: center
+    justify-content: center
+
+.center-vertical
+    align-items: center
+
+.flex-coulumn
+    flex-direction: column
+
+.center-bottom
+    align-items: center
+
+.right
+    align-items: end
+    justify-content: flex-end
+
+.black
+    background-color: $black
+
+.radial-color-bg
+    background: radial-gradient($fade-c, $fade-bonus)
+
+.textcontainer
+    @include breakpoint-up(large)
+        padding: 10%
+
+    @include breakpoint-down(medium)
+        padding: 5%
+
+    @include breakpoint-down(small)
+        padding: 5%
+
+    &
+        margin: auto
+
+    .txt-cursive
+        @include breakpoint-up(large)
+            font-size: 1.5vw
+
+        @include breakpoint-down(medium)
+            font-size: 2.3vw
+
+        @include breakpoint-down(small)
+            font-size: 3vw
+
+        &
+            color: $background-section-two-light
+            font-style: italic
+            font-weight: 100
+            padding-top: 2%
+            text-transform: uppercase
+
+//Visibility for mobile and desktop
+
+.hide-for-mobile
+
+    @include breakpoint-down(medium)
+        display: none
+
+.hide-for-desktop
+
+    @include breakpoint-up(large)
+        display: none
+
+.half-width-viewportsm
+
+    @include breakpoint-down(medium)
+        height: 50%
+        width: 100%
+
+    @include breakpoint-down(small)
+        height: 50%
+        width: 100%
+
+.half-height-viewportsm
+
+    @include breakpoint-down(medium)
+        height: 100%
+        width: 50%

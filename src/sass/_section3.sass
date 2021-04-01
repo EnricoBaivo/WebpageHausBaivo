@@ -1,0 +1,23 @@
+section
+    background: $white
+
+.flex-row
+    align-items: center
+    height: fit-content
+
+    .hugefont
+        animation: $font-c-animation
+        text-align: center
+        text-transform: uppercase
+
+        &:nth-child(1)
+            font-size: 10vw
+
+        &:nth-child(2)
+            font-size: 25vw
+
+        &:nth-child(3)
+            font-size: 10vw
+
+        @include breakpoint-down(small)
+            font-size: 30vw
