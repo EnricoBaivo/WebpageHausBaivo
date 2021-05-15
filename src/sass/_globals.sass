@@ -88,9 +88,13 @@ video
 .bg-color
     background-color: $background-section-one-light
 
+.bg-colorgradient
+   background: linear-gradient(-45deg,$fade-a 0%, $fade-c 100%) 0% 0% / 150% 150%;
+
 .fade
     animation: bg-colorfade  20s ease-in-out infinite
-
+.fade-linear
+    animation: bg-colorgradient  20s ease-in-out infinite
 .f-c-fade
     animation: $font-c-animation
 
@@ -111,7 +115,8 @@ video
     position: fixed
 
 .blur
-    backdrop-filter: blur(10px)
+    
+    filter: blur(0.1rem)
 
 .half
     height: 100%
